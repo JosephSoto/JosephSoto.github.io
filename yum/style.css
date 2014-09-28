@@ -53,4 +53,13 @@ table {
 
 /* END RESET */
 
+<style>
 
+ul.ingredients {
+	list-style: none;
+	color:#99000;
+	padding:20px;
+	
+}
+
+</style>
