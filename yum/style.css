@@ -53,13 +53,82 @@ table {
 
 /* END RESET */
 
+
 <style>
+img {padding:10px;}
 
-ul.ingredients {
-	list-style: none;
-	color:#99000;
-	padding:20px;
+    #box1 { 
+      background-color:#CEB59D;
+      padding:10px;
+      margin:5px;
+      width:500px;
+      text-align:left;
+      font-family:helvetica;
+      border:1px solid #C2A385;
+    }
 	
-}
+    #box2 { 
+      background-color:#CEB59D;
+      padding:10px;
+      margin:5px;
+      width:500px;
+      text-align:left;
+      font-family:helvetica;
+      border:1px solid #C2A385;
+    }	
 
+    #box3 { 
+      background-color:#CEB59D;
+      padding:10px;
+      margin:5px;
+      width:500px;
+      text-align:left;
+      font-family:helvetica;
+      border:1px solid #C2A385;
+    }	
+	
+#directions  {text-align: left;
+	padding:5px;
+	font-family:helvetica;
+	font-size:12px;
+	line-height:120%;}	
+	
+#information  {text-align: left;
+		padding:10px;
+		font-family:helvetica;
+		font-size:12px;
+		line-height:120%;}	
+		
+em {font-weight:bold;}	
+
+ul {text-align: left;
+		padding:10px;
+		font-family:helvetica;
+		font-size:12px;
+		line-height:120%;}	
+
+#nav {text-align: left;
+				padding:10px;
+				font-family:helvetica;
+				font-size:16px;
+				line-height:120%;
+		        background-color:#CEB59D;
+		        padding:10px;
+		        margin:5px;
+		        width:500px;
+		        text-align:left;
+		        border:1px solid #C2A385;
+			}			
+a:visited {color: #000000;
+			}
+a:hover {color: #fff;
+						}		
+a:visited {text-decoration:none;
+			}				
+a:link {text-decoration: none;
+			}
+ol {max-width: 500px;
+	padding:5px;
+   background-color:none;
+			}			
 </style>
