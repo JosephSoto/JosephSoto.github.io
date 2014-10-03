@@ -53,52 +53,93 @@ table {
 
 <style>
 
-
-#dogs { 
-    background-color:#00CCFF;
-    padding:10px;
-    margin:5px;
-    width:500px;
-    text-align:left;
-    font-family:helvetica;
-    border:1px solid #C2A385;
-    position: fixed;
-        top: 30px;
-        right: 5px;
-}
-
-#cats { 
-  background-color:#00CCFF;
-  padding:10px;
-  margin:5px;
-  width:500px;
+section {
+  margin-left: 400px
   text-align:left;
   font-family:helvetica;
-  border:1px solid #C2A385;
-  position: fixed;
-      top: 30px;
-      right: 5px;
 }
+
+#dogs { 
+    text-align:left;
+    font-family:helvetica;
+	font-size:12px;
+	line-height:120%;
+		width:400px;}
+	
+#cats { 
+	    text-align:left;
+	    font-family:helvetica;
+		font-size:12px;
+		line-height:120%;
+		width:400px;
+		padding:0px;}
+		
+
+h1 {font-family:helvetica;
+	font-size:50px;
+	text-align:center;
+	color:#FF6699;
+	font-weight:bold;
+	padding:50px;}
+
 
 footer { 
-  align:right;
-  background-color:#FF6699;
-  padding:10px;
-  margin:5px;
-  width:500px;
-  text-align:left;
-  font-family:Times;
-  border:1px solid #C2A385;
-  position: relative;
-      top: 30px;
+  font-family:helvetica;
       right: 5px;
 }
 
-h3 {font-size:20px
-	font-family:helvetica;}
+em {font-weight:bold;}
 	
-nav {font-size:40px;
-    display: inline;
-  }	
+nav {font-size:15px;
+	font-family:helvetica;}
+
+#nav {
+width:700px;
+margin:0 auto;
+list-style:none;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+background-color: #ff6699;}
+
+#nav li {
+float:left;}
+
+#nav a {
+display:block;
+text-align:center;
+width:100px; 
+text-decoration:none;}
+
+
+  
+ul {
+      list-style-type: none;
+      margin: 20px;
+      padding: 20px;
+      overflow: hidden;
+	  text-align:center;}
+
+
+
+ 
+ 
+a:visited {color: #000000;
+}
+a:hover {color: #FF6699;
+}		
+a:visited {text-decoration:none;
+}				
+a:link {text-decoration: none;
+} 
+
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  height: 20px;
+  background-color: #FF6699;
+  width: 100%;
   
 </style>
