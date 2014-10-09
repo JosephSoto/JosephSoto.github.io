@@ -51,31 +51,34 @@ table {
 
 /* END RESET */
 
-<style>
+
+
 
 section {
   margin-left: 400px
   text-align:left;
-  font-family:helvetica;
+  font-family:times;
 }
 
 #dogs { 
     text-align:left;
-    font-family:helvetica;
+    font-family:times;
 	font-size:12px;
 	line-height:120%;
-		width:400px;}
+		float:right;
+		width:50%;}
 	
 #cats { 
 	    text-align:left;
-	    font-family:helvetica;
+	    font-family:times;
 		font-size:12px;
 		line-height:120%;
-		width:400px;
-		padding:0px;}
+		padding:0px;
+	float:left;
+	width:50%;}}
 		
 
-h1 {font-family:helvetica;
+h1 {font-family:times;
 	font-size:50px;
 	text-align:center;
 	color:#FF6699;
@@ -84,14 +87,17 @@ h1 {font-family:helvetica;
 
 
 footer { 
-  font-family:helvetica;
+  font-family:times;
       right: 5px;
 }
 
 em {font-weight:bold;}
 	
 nav {font-size:15px;
-	font-family:helvetica;}
+	font-family:times;
+	border-top:5px solid black;
+	border-bottom:5px solid black;
+}
 
 #nav {
 width:700px;
@@ -100,7 +106,7 @@ list-style:none;
 margin-left: auto;
 margin-right: auto;
 width: 60%;
-background-color: #ff6699;}
+background-color: #fff;}
 
 #nav li {
 float:left;}
@@ -119,6 +125,11 @@ ul {
       padding: 20px;
       overflow: hidden;
 	  text-align:center;}
+	  
+.logo {float:right;
+	padding:10px;
+    top:500px;
+    left:600px;}
 
 
 
@@ -135,11 +146,11 @@ a:link {text-decoration: none;
 
 
 footer {
-  position: fixed;
+
   bottom: 0px;
   left: 0;
-  height: 20px;
-  background-color: #FF6699;
+  height: 2px;
+  background-color: #000;
   width: 100%;
   
-</style>
+  .dog {margin-left:430px;}
