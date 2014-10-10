@@ -52,4 +52,34 @@ table {
 
 /* -----------------END RESET---------------- */
 
+#rama {float:right;
+	padding:20px;
+}
+
+#little {padding:20px;
+	float:right;}
+
+h1 {font-family:helvetica;
+	size:40px
+	line-height;1em;
+	font-weight:bold;}
+h2 {font-family:helvetica;
+		size:20px
+		line-height;1em;}	
+	
+p {font-family:helvetica;
+	size:10px;
+	line-height:2em;}	
+	
+	body {
+	  margin:0 auto;
+	  width:960px;
+	}
+	
+article {
+		width:45%;
+		float:left;
+		padding:5px;
+	}	
+
 
