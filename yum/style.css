@@ -85,13 +85,18 @@ img {padding:10px;}
       text-align:left;
       font-family:helvetica;
       border:1px solid #C2A385;
+	  top:300px;
+	  left:300px;
     }	
 	
-#directions  {text-align: left;
+div.directions  {text-align: left;
 	padding:5px;
 	font-family:helvetica;
 	font-size:12px;
-	line-height:120%;}	
+	line-height:120%;
+    top:300px;
+    left:300px;
+}	
 	
 #information  {text-align: left;
 		padding:10px;
