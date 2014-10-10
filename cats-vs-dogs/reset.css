@@ -56,6 +56,7 @@ body {
   width:960px;
 }
 
+li {padding:10px;}
 
 
 section {
@@ -65,12 +66,14 @@ section {
 }
 .cats {	width:49%;
 	float:left;
-	padding-top:30px;}
+	padding-top:30px;
+  padding-bottom:40px;}
 	
 	
 .dogs { 	width:49%;
 	float:right;
-	padding-top:30px;}
+	padding-top:30px;
+  padding-bottom:40px;}
 	
 
 
@@ -79,13 +82,11 @@ h1 {font-family:times;
 	text-align:center;
 	color:#FF6699;
 	font-weight:bold;
-	padding:50px;}
+		padding-top:20px;
+	padding-bottom:20px;}
 
 
-footer { 
-  font-family:times;
-      right: 5px;
-}
+
 
 em {font-weight:bold;}
 	
@@ -101,14 +102,15 @@ nav {font-size:30px;
 #nav a {
 display:inline-block;
 text-align:center;
-text-decoration:none;}
+text-decoration:none;
+}
 
 nav li {display:inline-block;;/p}
   
 ul {
       list-style-type: none;
       margin: 0px;
-      padding: 0px;
+      padding: 10px;
       overflow: hidden;
 	  text-align:center;}
 	  
@@ -116,6 +118,7 @@ ul {
 	padding:10px;
     top:500px;
     left:600px;}
+
 
 
 
@@ -130,8 +133,20 @@ a:visited {text-decoration:none;
 a:link {text-decoration: none;
 } 
 
+footer {clear:both;
+  font-family:times;
+  padding-top:10px;
+  	border-top:5px solid black;
+
+}
+
+.text {float:left;}
+
+.copy {float:right;}
 
 
+h3 {font-size:20px;
+	line-height:2em;}
   
 
   
