@@ -59,12 +59,15 @@ body{
    	float: right;
    	width:20%;
    	padding-top:133px;
-   	line-height:1em;	}
+   	line-height:1em;	
+	color:#76481b;}
 	 
 #site-footer {
 		position:relative;
 		clear:both;
-		height:160px;}
+		height:160px;			
+		 background-color:#76481b;
+	}
 		
 #site-header h1 a {
 		 display:block; 
@@ -77,13 +80,15 @@ body{
 			 position:absolute;
 			 top:0px;
 			 right:200px;
-			 font-size:20px;}
+			 font-size:20px;
+			 background-color:#ebf2d5;}
 			 
 #main-menu li{float:left;
 			 	padding:5px;
 			 	list-style-type: none;
 				text-transform:uppercase;
-				margin:5px;}	
+				margin:5px;
+			background-color:#76481b}	
 #page{clear:both;
 			   	 width:50%;
 			   	 float:left;

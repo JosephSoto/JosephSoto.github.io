@@ -97,18 +97,13 @@ nav {font-size:30px;
 
 
 
-#nav li {
-float:left;
-padding-left:200px;
-	text-transform: uppercase;}
 
 #nav a {
-display:block;
+display:inline-block;
 text-align:center;
-width:0px; 
 text-decoration:none;}
 
-
+nav li {display:inline-block;;/p}
   
 ul {
       list-style-type: none;
