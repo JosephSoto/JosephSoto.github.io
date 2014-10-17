@@ -57,12 +57,14 @@ table {
    	width:20%;
    	padding-top:133px;
    	line-height:1em;	
-	color:#76481b;}
+	color:#76481b;
+	margin:0 auto;
+	    			width:30%;}
 	 
 #site-footer {
 		position:relative;
 		clear:both;
-		height:360px;			
+		height:160px;			
 		 background-color:#76481b;
 	}
 	
@@ -78,8 +80,10 @@ table {
 			 background:url(images/logo.png) no-repeat top left; 
 			 clear:both;
 			float:left;
-			left:200px;
+			left:300px;
 	}
+	
+	
 #site-header { margin:0 auto;
     			width:60%;}
 				
@@ -109,7 +113,7 @@ width:100px;
 				
 				}	
 				
-#main-menu {background-color:#76481b;
+#main-menu {background-color:#ebf2d5;
 			height:120px;
 			margin:0 auto;
 			width:60%;
@@ -137,12 +141,88 @@ a {color:white;
 				 padding-right:30px;
 			   	 padding-left:0px;
 				 padding-bottom:30px;
-				 
-			 }		
+				 margin:0 auto;
+				 width:60%;
+ }		
+
+ #content { margin:0 auto;
+				 width:60%;}
 				 
 li {float:right
 	display:inline-block;}	
 	
 	
-#site-wrapper	{background-color:pink;}			 			 
+#site-wrapper	{background-color:pink;}	
 
+#footer-follow { margin:0 auto;
+				 width:20%;
+				 right:0px;
+				 position:absolute;
+				top:30px;
+				
+		}		 			 
+
+li display  {display: inline;
+}
+
+#contact {margin:0 auto;
+				 width:60%;}
+#copy {margin:0 auto;
+				 width:60%;}	
+				 
+#words {width:200px; height:100px;
+	margin-top:10px;}		
+
+#footer-wrapper { margin:0 auto;
+				 width:60%;
+				 position:relative;
+				 top:10px;
+				 height:40px;
+				
+			 }	
+			 
+#footer-contact {top:50px;
+				 height:40px;}	
+				 
+#heads {color:#76481b;
+	font-family:helvetica;
+	font-size:30px;
+	font-weight:bold;
+text-transform:uppercase;
+line-height:1.5em;}	
+
+
+#lorem {color:#76481b;
+	font-family:helvetica;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;}	
+	
+#dictumst {color:#black;
+	font-family:helvetica;
+	font-size:13px;}
+	
+#praesent	{color:#black;
+	font-family:helvetica;
+	font-size:13px;	}
+	
+#ipsum {color:#76481b;
+	font-family:helvetica;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;}	
+	
+	
+#vel	{color:#black;
+		font-family:helvetica;
+		font-size:13px;	}				 		 	 			 
+		
+#nullam {color:#black;
+			font-family:helvetica;
+			font-size:13px;}	
+			
+#sidebar {color:#76481b;
+				font-family:helvetica;
+				font-size:15px;
+				font-weight:bold;
+				text-transform:uppercase;}					
