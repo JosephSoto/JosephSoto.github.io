@@ -60,16 +60,18 @@ table {
 	float:right;}
 
 h1 {font-family:helvetica;
-	size:40px
-	line-height;1em;
+	font-size:22px;
+	line-height:1em;
 	font-weight:bold;}
+	
 h2 {font-family:helvetica;
-		size:20px
-		line-height;1em;}	
+		font-size:10px;
+		line-height:1em;
+		color:gray;}	
 	
 p {font-family:helvetica;
-	size:10px;
-	line-height:2em;}	
+	font-size:13px;
+	line-height:1.4em;}	
 	
 	body {
 	  margin:0 auto;
@@ -83,3 +85,14 @@ article {
 	}	
 
 
+img.floatleft { 
+	    float:left; 
+	    margin-right:20px;
+		margin-bottom:20px; 
+	}
+	
+	img.floatright { 
+		    float:left; 
+		    margin-right:20px;
+			margin-bottom:20px; 
+		}
