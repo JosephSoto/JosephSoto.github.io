@@ -95,8 +95,8 @@ table {
 			 background-color:red; 
 			 background:url(images/logo.png) no-repeat top left; 
 			 clear:both;
-			float:left;
-			left:300px;
+   		 margin:0 auto;
+   		width:60%;
 	}
 	
 	
@@ -124,9 +124,8 @@ table {
 				padding-bottom:5px;
 			 	list-style-type: none;
 				text-transform:uppercase;
-				margin-top:120px;
+				margin-top:80px;
 				background-color:#76481b;
-
 				width:120px;
 
 
@@ -134,10 +133,12 @@ table {
 				}	
 				
 #main-menu {background-color:#ebf2d5;
-			height:120px;
-			margin:0 auto;
-			width:100%;
-			padding:40px;}	
+			height:66px;
+
+			padding:40px;
+		 margin:0 auto;
+		width:60%;
+		}	
 	
 				
 nav li {float:left;}	
@@ -180,9 +181,15 @@ li {float:right
 				 width:30%;
 				 right:0px;
 				 position:absolute;
-				top:30px;
-				
-}		 			 
+				top:0px;
+				color:#ebf2d5;
+				font-family:helvetica;
+				text-transform:uppercase;
+				font-size:13px;
+				 line-height:2em;				
+}
+
+#footer-follow li {display:inline;}		 			 
 
 li display  {display: inline;
 }
