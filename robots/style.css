@@ -134,14 +134,16 @@ table {
 				
 #main-menu {background-color:#ebf2d5;
 			height:66px;
-
 			padding:40px;
 		 margin:0 auto;
-		width:60%;
+		width:100%;
 		}	
 	
 				
-nav li {float:left;}	
+nav li {float:left;
+
+}	
+
 
 			
 /**LINKS**/					
