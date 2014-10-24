@@ -88,16 +88,7 @@ table {
 	
 	
 /**GRAPHIC**/		
-	#site-header h1 a {
-			position:absolute;
-			 width:306px; 
-			 height:200px; 
-			 background-color:red; 
-			 background:url(images/logo.png) no-repeat top left; 
-			 clear:both;
-   		 margin:0 auto;
-   		width:60%;
-	}
+
 	
 	
 #site-header { margin:0 auto;
@@ -115,35 +106,51 @@ table {
 			float:right;
 			
 		 }
-		 
-		 
+#evil a {font-color:#76481b;
+	text-decoration:none;
+	font-family:helvetica;
+	text-transform:caps;
+	font-size:100px; margin:0 auto;
+				 width:60%;}
 		 
 /**NAVIGATION**/			 
-#main-menu li	{
-			 	padding-top:5px;
-				padding-bottom:5px;
-			 	list-style-type: none;
-				text-transform:uppercase;
-				margin-top:80px;
-				background-color:#76481b;
-				width:120px;
-
 
 				
-				}	
-				
-#main-menu {background-color:#ebf2d5;
-			height:66px;
-			padding:40px;
-		 margin:0 auto;
-		width:100%;
-		}	
-	
-				
-nav li {float:left;
+#site-header {position:relative; 
+	height:120px; 
+	background-color:#EFF3DC; }
+#site-header h1 {position:absolute; 
+	left:15px; padding-left:10%; }
+#top-nav {position:absolute; 
+	right:15px; font-family: helvetica; 
+	font-size:.5em; color:#4f3a11; 
+	padding-right:10%;  }
 
-}	
+a:link {text-decoration: none; 
+	color:#4f3a11; }
 
+#main-menu {position:relative; 
+	height:30px; 
+	background-color:#76481b; 
+	padding-left:10%;  }
+
+
+
+#main-menu li {float:left; 
+	display:block; 
+	left:300px;
+	padding-left:10px; 
+	font-family: helvetica;
+	 text-transform:uppercase; 
+	 color:white; 
+	 font-weight:bold; 
+	 font-size:.9em;  }
+	 
+	 
+	 
+#main-menu li a {color:white; 
+	font-weight:bold; 
+	padding-left:50px;}
 
 			
 /**LINKS**/					
@@ -151,7 +158,8 @@ nav li {float:left;
 	text-decoration:none;
 	font-family:helvetica;
 	text-transform:caps;
-	font-size:10px;
+	font-size:10px; margin:0 auto;
+				 width:60%;
 
 }				
 	
@@ -177,7 +185,7 @@ li {float:right
 	display:inline-block;}	
 	
 	
-#site-wrapper	{background-color:pink;}	
+#site-wrapper	{background-color:#ebf2d5;}	
 
 #footer-follow { margin:0 auto;
 				 width:30%;
@@ -276,4 +284,7 @@ line-height:1.5em;}
 	font-weight:bold;
 	text-transform:uppercase;}	
 	
-#evil a {color:#ebf2d5;}								
+#evil a {color:#ebf2d5;}	
+
+#main-menu {				 margin:0 auto;
+				width:100%;}							
