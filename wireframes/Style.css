@@ -72,12 +72,12 @@ a: hover{text-decoration:none;
 }	
 a {text-decoration:none;}
 
-a:link{
+a:link {
       color:#d1edc8;
   }
-  a:hover{
+  a:hover {
       color: white;
   }
-  a:active{
+  a:active {
       color:#d1edc8;
   }
