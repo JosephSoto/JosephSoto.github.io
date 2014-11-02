@@ -325,9 +325,13 @@ margin-bottom:30px;
 font-size:15px;
 font-family: 'Droid Sans', sans-serif;
 line-height:1.4em;
+
 }
 
-#plats {clear:both;}
+.hello {
+	height:200px;
+	clear:both;}
+
 
 
 
