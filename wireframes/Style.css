@@ -1,5 +1,5 @@
 
-
+  div {padding-bottom:60px;}
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -73,11 +73,265 @@ a: hover{text-decoration:none;
 a {text-decoration:none;}
 
 a:link {
-      color:#d1edc8;
+      color:#ccc;
   }
   a:hover {
       color: white;
   }
   a:active {
-      color:#d1edc8;
+      color:#ccc;
   }
+
+  
+  hr { display: block; height: 1px;
+      border: 0; border-top: 2px solid #ccc;
+      margin: 1em 0; padding: 0; }
+	  
+#one {float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Linden Hill', serif;
+text-align:center;}
+
+#two {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Linden Hill', serif;
+line-height:1.4em;
+}
+
+#three {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Goudy Bookletter 1911', serif;
+text-align:center;}
+
+#four {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Goudy Bookletter 1911', serif;
+line-height:1.4em;}
+
+#five {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Gentium Book Basic', serif;
+text-align:center;}
+
+#six {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Gentium Book Basic', serif;
+line-height:1.4em;}
+
+#seven {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Donegal One', serif;
+text-align:center;}
+
+#eight {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Donegal One', serif;
+line-height:1.4em;}
+
+#nine {
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Bentham', serif;
+text-align:center;}
+
+#ten {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Bentham', serif;
+line-height:1.4em;}
+
+#eleven{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Amethysta', serif;
+text-align:center;}
+
+#twelve {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Amethysta', serif;
+line-height:1.4em;}
+
+#thirteen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Della Respira', serif;
+text-align:center;}
+
+#fourteen {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Della Respira', serif;
+line-height:1.4em;}
+
+#fifteen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Brawler', serif;
+text-align:center;}
+
+#sixteen {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Brawler', serif;
+line-height:1.4em;}
+
+
+#seventeen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Inconsolata', ;
+text-align:center;}
+
+#eighteen {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Inconsolata', ;
+line-height:1.4em;}
+
+#nineteen{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Hammersmith One', sans-serif;
+text-align:center;}
+
+#twenty {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Hammersmith One', sans-serif;
+line-height:1.4em;}
+
+#twentyone{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Ek Mukta', sans-serif;
+text-align:center;}
+
+#twentytwo {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Ek Mukta', sans-serif;
+line-height:1.4em;}
+
+
+#twentythree{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Istok Web', sans-serif;
+text-align:center;}
+
+#twentyfour {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Istok Web', sans-serif;
+line-height:1.4em;}
+
+#twentyfive{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Average Sans', sans-serif;
+text-align:center;}
+
+#twentysix {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Average Sans', sans-serif;
+line-height:1.4em;}
+
+#twentyseven{
+	clear:both;
+	float:left;
+width:49%;
+font-size:80px;
+padding-top:7%;
+margin-bottom:30px;
+font-family: 'Droid Sans', sans-serif;
+text-align:center;}
+
+#twentyeight {float:right;
+width:49%;
+margin-bottom:30px;
+font-size:15px;
+font-family: 'Droid Sans', sans-serif;
+line-height:1.4em;
+}
+
+#plats {clear:both;}
+
+
+
+
+
+
+	  
