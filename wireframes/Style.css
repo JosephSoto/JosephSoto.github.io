@@ -333,12 +333,31 @@ line-height:1.4em;
 	clear:both;}
 	
 	
-	.Platforms {
-		height:200px;
-		clear:both;}	
+
+		
+		
+#landing{
+		clear:both;
+		float:left;
+		width:29%;
+		margin-bottom:30px;
+		text-align:left;}	
+		
+		
+#about{
+
+		float:right;
+		width:40%;
+		margin-bottom:30px;
+		text-align:left;
+}		
+			
 
 
 
+		.Platforms {
+				height:200px;
+				clear:both;}	
 
 
 
