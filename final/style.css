@@ -194,6 +194,18 @@ footer     {
 
 
 	 }	 	
+
+
+
+
+
+
+img.facebook {
+    max-width: 10%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 	
 	
 	 
