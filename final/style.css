@@ -66,7 +66,7 @@ table {
 #caption {margin-top:6%;}	
 	
 #siteheader {	
-	height:500px;
+	height:300px;
 	background-color:#00CC99;
 	margin: 0 auto;
 	padding-bottom:5%;
@@ -90,14 +90,14 @@ table {
 #navigationone	li {
 		display: inline;
 		padding:.5em;
-		font-size:300%;
+		font-size:200%;
 		color:#fefefe;
 		font-weight: 200;
 
 	 }	
 	 
 	 
-#name {margin-right:80%;
+#name {margin-right:50%;
 
 	
 	 }
@@ -149,14 +149,14 @@ body {
 
 /*INTRODUCTIONS (H2 + H3)*/
 	 
-#introone {font-size:850%;
+#introone {font-size:550%;
 	line-height:130%;
 	text-align:center;
 	font-weight: 600;
 
 	}	
 	
-#subone {font-size:200%;
+#subone {font-size:100%;
 	text-align:center;
 	font-weight: 200;
 
