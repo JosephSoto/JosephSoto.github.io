@@ -110,7 +110,8 @@ table {
 
 #bodywrapper {max-width:1000px;
 	margin-left:20%;
-	margin-top:10%;}	 
+	margin-top:10%;
+	margin-bottom:10%;}	 
 	 
 
 body {
@@ -183,6 +184,7 @@ a:active {
 
 footer     {
     position:fixed;
+	margin-top:20px;
     left:0px;
     bottom:0px;
     height:55px;
