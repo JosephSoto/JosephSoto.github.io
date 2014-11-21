@@ -52,11 +52,141 @@ table {
 
 /* END RESET */
 
+
+
+
+
+
 	.fancybox-custom .fancybox-skin {
 		box-shadow: 0 0 50px #222;
 	}
 
-	body {
-		max-width: 700px;
-		margin: 0 auto;
+/*SITE HEADER WRAPPER*/
+
+#caption {margin-top:6%;}	
+	
+#siteheader {	
+	height:500px;
+	background-color:#00CC99;
+	margin: 0 auto;
+	padding-bottom:5%;
+	padding-top:8%;
+
+	
 	}
+
+
+	
+/*NAVIGATION*/
+	
+#navigationone {	
+		text-align:center;
+		text-decoration:none;
+		
+	
+	}
+	
+	
+#navigationone	li {
+		display: inline;
+		padding:.5em;
+		font-size:300%;
+		color:#fefefe;
+		font-weight: 200;
+
+	 }	
+	 
+	 
+#name {margin-right:80%;
+
+	
+	 }
+
+
+
+			
+/*BODY*/
+
+
+#bodywrapper {max-width:1000px;
+	margin-left:20%;
+	margin-top:10%;}	 
+	 
+
+body {
+	font-size:20px;
+	font-family: 'Ek Mukta', sans-serif;
+	font-weight: 400;
+	margin:0 auto;
+	text-align:left;
+	
+	 }
+	
+	
+
+/*INTRODUCTIONS (H2 + H3)*/
+	 
+#introone {font-size:850%;
+	line-height:130%;
+	text-align:center;
+	font-weight: 600;
+
+	}	
+	
+#subone {font-size:200%;
+	text-align:center;
+	font-weight: 200;
+
+	} 
+
+
+
+
+/*HOVER LINKS*/
+	 
+a: hover {text-decoration:none;
+	
+	 }	
+	 
+	 
+a {
+	text-decoration:none;
+	color:white;
+
+	}
+
+
+a:link {
+	 color:white;
+	 
+	}
+	
+	
+a:hover {
+	  color:white;
+	  
+	 }
+	 
+	 
+a:active {
+	  color:white;
+	  
+	 }	 	
+	 
+/*HOVER EFFECT*/
+	 
+.shrink {
+	  display: inline-block;
+	   -webkit-transition-duration: 1s;
+	   transition-duration: 1s;
+	   -webkit-transition-property: transform;
+	   transition-property: transform;
+	   -webkit-transform: translateZ(0);
+	   transform: translateZ(0);
+	   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	 }
+	 
+	 .shrink:hover, .shrink:focus, .shrink:active {
+	   -webkit-transform: scale(0.9);
+	   transform: scale(0.9);
+	 }	 	 
