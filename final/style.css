@@ -185,28 +185,31 @@ footer     {
     position:fixed;
     left:0px;
     bottom:0px;
-    height:30px;
+    height:55px;
     width:100%;
     background-color:#000;
 	color:white;
 	font-size:75%;
-	text-align:center;
+	text-align:right;
 
 
 	 }	 	
 
 
+/*FOOTER SOCIAL MEDIA ICON*/
+
+#socialmedia {margin-top:12px;
+	margin-right:15px;}
+	 
+#socialmedia li {
+	display:inline;
+    list-style-type: none;
+    padding: .3%;
+	margin-top: .5%;
+    overflow: hidden;
+  	text-align:center;}
 
 
-
-
-img.facebook {
-    max-width: 10%;
-    height: auto;
-    width: auto\9; /* ie8 */
-}
-
-	
 	
 	 
 /*NAV HOVER EFFECT*/
