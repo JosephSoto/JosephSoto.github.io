@@ -123,26 +123,7 @@ body {
 	
 	 }
 	
-#imageone {clear:both;
-		width:28%;
-		margin:0 1%;
-		float:left;
-		margin-left:1%;
-	
-	 }	
-	 
- 
-	 
-	 #imagetwo {
-		 
-	 		width:28%;
-	 		margin:0 1%;
-	 		float:right;
-	 		margin-left:1%;
-	
-	 	 }
-		 
-		 
+
 		 
 		 
 		 	 
@@ -294,8 +275,8 @@ footer     {
 	     background: #33cccc  
 	 }
 	 .view .mask, .view .content {
-	     width: 900px;
-	     height: 600px;
+	     width: 750px;
+	     height: 422px;
 	     position: absolute;
 	     overflow: hidden;
 	     top: 0;
