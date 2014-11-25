@@ -63,22 +63,31 @@ table {
 
 /*SITE HEADER WRAPPER*/
 
-#caption {margin-top:6%;}	
-	
-#siteheader {	
+#caption {margin-top:6%;
+	position:fixed;
 	top:0;
 	right:0;
+	margin-right:2.4%;
 	height:50.78%;
-	background-color:black;
+	width:40.41%;
+	
+	}	
+	
+#siteheader {	
+	height:50.78%;
+	background-color:white;
 	width:40.41%;
 	padding-bottom:5%;
 	padding-top:3%;
 	position:fixed;
+	top:0;
+	right:0;
 	margin-right:2.4%;
+	
 	
 	}
 
-
+	#caption {background-color:black;}
 	
 /*NAVIGATION*/
 	
@@ -132,9 +141,10 @@ body {
 /*FLOATING IMAGES*/
 	 
 #containerbody {
+		
 	padding-left:13%;
-	clear:both;
-		position:relative;
+	position:relative;
+	left:0px;
 		 height:3100px;
 		 width:43.5%;
 		 background-color:none;
@@ -212,6 +222,7 @@ body {
 	color:white;
 	padding-left:8.3%;
 	word-spacing: .1em;
+	line-height:1.5em;
 
 	} 
 
@@ -237,25 +248,26 @@ a: hover {text-decoration:none;
 	 
 a {
 	text-decoration:none;
-	color:white;
+	color:black;
 
 	}
 
 
 a:link {
-	 color:white;
+	 color:black;
 	 
 	}
 	
 	
 a:hover {
-	  color:blue;
+	  color:#000;
+    border-bottom: 5px solid black;
 	  
 	 }
 	 
 	 
 a:active {
-	  color:white;
+	  color:black;
 	  
 	 }	 	
 	
@@ -272,6 +284,7 @@ footer     {
 	color:white;
 	font-size:75%;
 	text-align:right;
+
 	
 
 
@@ -296,21 +309,6 @@ footer     {
 	 
 /*NAV HOVER EFFECT*/
 	 
-.shrink {
-	  display: inline-block;
-	   -webkit-transition-duration: 1s;
-	   transition-duration: 1s;
-	   -webkit-transition-property: transform;
-	   transition-property: transform;
-	   -webkit-transform: translateZ(0);
-	   transform: translateZ(0);
-	   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	 }
-	 
-	 .shrink:hover, .shrink:focus, .shrink:active {
-	   -webkit-transform: scale(0.9);
-	   transform: scale(0.9);
-	 }	 	 
 
 
 /*IMAGE HOVER EFFECT*/
