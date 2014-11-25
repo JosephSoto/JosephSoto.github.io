@@ -293,17 +293,17 @@ footer     {
 	 	font-size:350%;
 	 	font-family: 'Ek Mukta', sans-serif;
 	 	font-weight: 400;
-		line-height:1em;
+		line-height: 1em;
 	     padding: 10px;
 	     background: rgba(0, 0, 0, 0.8);
 	     margin: 20px 0 0 0;
-		 padding-top:20%;
+		 padding-top:10%;
 	 }
 	 .view p {
  	 	font-size:150%;
  	 	font-family: 'Ek Mukta', sans-serif;
  	 	font-weight: 200;
- 		line-height:2em;
+ 		line-height:1.5em;
 	     position: relative;
 	     color: #fff;
 	     padding: 0px 20px 0px;
