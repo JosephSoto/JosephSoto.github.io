@@ -103,11 +103,7 @@ table {
 
 	 }	
 	 
-	 
-#name {margin-right:50%;
 
-	
-	 }
 
 
 
@@ -200,20 +196,22 @@ body {
 #introone {font-size:250%;
 	line-height:130%;
 	text-align:left;
-	font-weight: 600;
+	font-weight: 200;
 	margin-top:20%;
-	padding-bottom: 3.7%;
+	padding-bottom: 3%;
 	color:white;
+	padding-left:7.3%;
 
 	
 
 	}	
 	
-#subone {font-size:200%;
+#subone {font-size:100%;
 	text-align:left;
 	font-weight: 200;
 	color:white;
-	margin-left:12%;
+	padding-left:8.3%;
+	word-spacing: .1em;
 
 	} 
 
@@ -224,7 +222,8 @@ body {
 #titleone {font-weight:200;
 	line-height:2em;
 	font-size:150%;
-	margin-left:10%;
+	margin-left:1%;
+	text-align:left;
 
 	 }	
 
@@ -238,13 +237,13 @@ a: hover {text-decoration:none;
 	 
 a {
 	text-decoration:none;
-	color:#000;
+	color:white;
 
 	}
 
 
 a:link {
-	 color:#000;
+	 color:white;
 	 
 	}
 	
@@ -256,7 +255,7 @@ a:hover {
 	 
 	 
 a:active {
-	  color:#000;
+	  color:white;
 	  
 	 }	 	
 	
