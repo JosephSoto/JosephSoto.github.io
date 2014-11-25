@@ -66,18 +66,22 @@ table {
 #caption {margin-top:6%;}	
 	
 #siteheader {	
+	top:0;
+	right:0;
 	height:400px;
-	background-color:#222;
-	margin: 0 auto;
+	background-color:#fff;
+	width:56.5%;
 	padding-bottom:5%;
 	padding-top:3%;
-
+	position:fixed;
 	
 	}
 
 
 	
 /*NAVIGATION*/
+	
+
 	
 #navigationone {	
 		text-align:center;
@@ -90,9 +94,11 @@ table {
 #navigationone	li {
 		display: inline;
 		padding:.5em;
-		font-size:200%;
-		color:#fefefe;
+		font-size:100%;
+		color:#000;
 		font-weight: 200;
+		background-color:none;
+		
 
 	 }	
 	 
@@ -128,60 +134,94 @@ body {
 
 /*FLOATING IMAGES*/
 	 
-	 
-	 #image1 {clear:both;
-	 		width:28%;
-	 		margin:0 1%;
-	 		float:left;
-	 		margin-left:1%;
-	
-	 	 }	
-	 
- 
-	 
-	 	 #image2 {
-		 
-	 	 		width:28%;
-	 	 		margin:0 1%;
-	 	 		float:right;
-	 	 		margin-left:.2%;
-	
-	 	 	 }
-		 	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 		 
-		 
-		 	 
+#containerbody {
+	clear:both;
+		position:relative;
+		 height:3100px;
+		 width:43.5%;
+		 background-color:none;
+		 margin-top:0%;
+		 padding-bottom:8.7%;
+	 }
 
-/*INTRODUCTIONS (H2 + H3)*/
 	 
-#introone {font-size:650%;
+#image1 {float:right;
+	
+	}	
+	 
+	 
+#image2 {clear:both;
+		float:right;
+	
+	}
+	
+
+#image3 {clear:both;
+		float:right;
+	
+		}	
+
+#image4 {clear:both;
+		float:right;
+	
+		}
+	
+
+#image5 {clear:both;
+		float:right;
+	
+		}
+		
+#image6 {clear:both;
+		float:right;
+	
+		}
+	
+
+#image7 {clear:both;
+		float:right;
+	
+		}	
+		 	 				
+	 	 
+
+/*TESTING*/
+		
+
+
+
+
+
+
+		
+	 
+#introone {font-size:850%;
 	line-height:130%;
-	text-align:center;
+	text-align:left;
 	font-weight: 600;
+	margin-top:50%;
+	margin-left:12%;
+
+	
 
 	}	
 	
 #subone {font-size:200%;
-	text-align:center;
+	text-align:left;
 	font-weight: 200;
+	color:black;
+		margin-left:12%;
 
 	} 
 
 /*TITLE*/
+	
+	
 
 #titleone {font-weight:200;
 	line-height:2em;
 	font-size:150%;
+	margin-left:10%;
 
 	 }	
 
@@ -195,25 +235,25 @@ a: hover {text-decoration:none;
 	 
 a {
 	text-decoration:none;
-	color:white;
+	color:#000;
 
 	}
 
 
 a:link {
-	 color:white;
+	 color:#000;
 	 
 	}
 	
 	
 a:hover {
-	  color:white;
+	  color:blue;
 	  
 	 }
 	 
 	 
 a:active {
-	  color:white;
+	  color:#000;
 	  
 	 }	 	
 	
@@ -230,6 +270,7 @@ footer     {
 	color:white;
 	font-size:75%;
 	text-align:right;
+	
 
 
 	 }	 	
@@ -306,7 +347,7 @@ footer     {
 	     text-align: center;
 
 	     cursor: default;
-	     background: #222;  
+	     background: #000;  
 		 opacity: 1;
 	 }
 	 .view .mask, .view .content {
@@ -371,7 +412,7 @@ footer     {
 	     transition: all .3s ease-in-out;
 	 }
 	 .view-tenth .mask { 
-	     background-color: #222; 
+	     background-color: #000; 
 	     transition: all .7s linear;
 	     opacity: 0;
 	 }   
@@ -415,5 +456,24 @@ footer     {
 	 
 	 
 	 
-/*IMAGE GRID*/
+/*MEDIA SCREEN*/
 	 
+	 
+	 @media screen and (max-width:1140px) { /*THIS IS THE CHANGE IN THE PAGE*/
+		 
+		 
+		 
+		 
+/*JAVASCRIPT*/
+		 
+<script type="text/javascript">
+
+
+
+</script>		
+
+
+
+
+
+ 
