@@ -67,7 +67,7 @@ table {
 	
 #siteheader {	
 	height:400px;
-	background-color:#00CC99;
+	background-color:#222;
 	margin: 0 auto;
 	padding-bottom:5%;
 	padding-top:3%;
@@ -108,8 +108,8 @@ table {
 /*BODY*/
 
 
-#bodywrapper {max-width:1250px;
-	margin-left:20%;
+#bodywrapper {
+
 	margin-top:10%;
 	margin-bottom:10%;}	 
 	 
@@ -118,13 +118,47 @@ body {
 	font-size:20px;
 	font-family: 'Ek Mukta', sans-serif;
 	font-weight: 400;
-	margin:0 auto;
 	text-align:left;
+ 	margin:0 auto;
+	width:100%;
+	
 	
 	 }
 	
 
+/*FLOATING IMAGES*/
+	 
+	 
+	 #image1 {clear:both;
+	 		width:28%;
+	 		margin:0 1%;
+	 		float:left;
+	 		margin-left:1%;
+	
+	 	 }	
+	 
+ 
+	 
+	 	 #image2 {
 		 
+	 	 		width:28%;
+	 	 		margin:0 1%;
+	 	 		float:right;
+	 	 		margin-left:.2%;
+	
+	 	 	 }
+		 	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 		 
 		 
 		 	 
 
@@ -266,13 +300,14 @@ footer     {
 	 .view {
 	     margin: 10px;
 	     float: left;
-	     border: 10px solid #fff;
+	     border: 0px solid #fff;
 	     overflow: hidden;
 	     position: relative;
 	     text-align: center;
-	     box-shadow: 1px 1px 2px #e6e6e6;
+
 	     cursor: default;
-	     background: #33cccc  
+	     background: #222;  
+		 opacity: 1;
 	 }
 	 .view .mask, .view .content {
 	     width: 750px;
@@ -288,7 +323,7 @@ footer     {
 	 }
 	 .view h2 {
 	     color: #000;
-	     text-align: center;
+	     text-align: left;
 	     position: relative;
 	 	font-size:350%;
 	 	font-family: 'Ek Mukta', sans-serif;
@@ -307,23 +342,25 @@ footer     {
 	     position: relative;
 	     color: #fff;
 	     padding: 0px 20px 0px;
-	     text-align: center
+	     text-align: left;
+		 padding-left:7.5%;
 	 }
 	 .view a.info {
 	     display: inline-block;
 	     text-decoration: none;
 	     padding: 7px 14px;
-		 margin-top:10%;
-	     background: #33cc99;
+		 margin-top:9%;
+	     background: #444;
 	     color: #fff;
  	 	font-size:100%;
  	 	font-family: 'Ek Mukta', sans-serif;
- 	 	font-weight: 600;
+ 	 	font-weight: 400;
  		line-height:1em;
 	     box-shadow: 0 0 0px #000
 	 }
 	 .view a.info:hover {
 	     box-shadow: 0 0 0px #000
+		 
 	 }
 
 
@@ -331,32 +368,32 @@ footer     {
 
 	 .view-tenth img { 
 	     transform: scaleY(1);
-	     transition: all .7s ease-in-out;
+	     transition: all .3s ease-in-out;
 	 }
 	 .view-tenth .mask { 
-	     background-color: rgba(255, 231, 179, 0.3); 
-	     transition: all 0.5s linear;
+	     background-color: #222; 
+	     transition: all .7s linear;
 	     opacity: 0;
 	 }   
 	 .view-tenth h2{
 	     background: transparent;
 	     margin: 20px 40px 0px 40px;
 	     transform: scale(0);
-	     color: #333;
-	     transition: all 0.5s linear;
+	     color: #fff;
+	     transition: all .3s linear;
 	     opacity: 0;
 	 }
 	 .view-tenth p {
-	     color: #333;
+	     color: #666;
 	     opacity: 0;
 	     transform: scale(0);
-	     transition: all 0.5s linear;
+	     transition: all 0.3s linear;
 	     padding-
 	 }
 	 .view-tenth a.info { 
 	     opacity: 0;
 	     transform: scale(0);
-	     transition: all 0.5s linear;
+	     transition: all 0.3s linear;
 	 }
 
 
