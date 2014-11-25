@@ -135,6 +135,7 @@ body {
 /*FLOATING IMAGES*/
 	 
 #containerbody {
+	padding-left:10%;
 	clear:both;
 		position:relative;
 		 height:3100px;
