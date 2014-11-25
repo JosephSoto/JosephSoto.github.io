@@ -68,12 +68,13 @@ table {
 #siteheader {	
 	top:0;
 	right:0;
-	height:400px;
-	background-color:#fff;
-	width:56.5%;
+	height:50.78%;
+	background-color:black;
+	width:40.41%;
 	padding-bottom:5%;
 	padding-top:3%;
 	position:fixed;
+	margin-right:2.4%;
 	
 	}
 
@@ -196,12 +197,13 @@ body {
 
 		
 	 
-#introone {font-size:850%;
+#introone {font-size:250%;
 	line-height:130%;
 	text-align:left;
 	font-weight: 600;
-	margin-top:50%;
-	padding-bottom: 8.7%;
+	margin-top:20%;
+	padding-bottom: 3.7%;
+	color:white;
 
 	
 
@@ -210,8 +212,8 @@ body {
 #subone {font-size:200%;
 	text-align:left;
 	font-weight: 200;
-	color:black;
-		margin-left:12%;
+	color:white;
+	margin-left:12%;
 
 	} 
 
