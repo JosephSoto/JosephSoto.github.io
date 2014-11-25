@@ -68,7 +68,7 @@ table {
 	top:0;
 	right:0;
 	margin-right:2.4%;
-	height:50.78%;
+	height:55.8%;
 	width:40.41%;
 	
 	}	
@@ -121,9 +121,11 @@ table {
 
 
 #bodywrapper {
-
 	margin-top:10%;
-	margin-bottom:10%;}	 
+	margin-bottom:10%;
+
+	}
+		 
 	 
 
 body {
@@ -144,12 +146,12 @@ body {
 		
 	padding-left:13%;
 	position:relative;
-	left:0px;
-		 height:3100px;
-		 width:43.5%;
-		 background-color:none;
-		 margin-top:0%;
-		 padding-bottom:8.7%;
+	height:3100px;
+	width:43.5%;
+	background-color:white;
+	margin-top:5.2%;
+	padding-bottom:8.7%;
+	
 	 }
 
 	 
@@ -232,9 +234,12 @@ body {
 
 #titleone {font-weight:200;
 	line-height:2em;
-	font-size:150%;
-	margin-left:1%;
+	font-size:100%;
+	position:fixed;
+	top:0px;
 	text-align:left;
+	margin-left:20%;
+	margin-top:2.4%;
 
 	 }	
 
