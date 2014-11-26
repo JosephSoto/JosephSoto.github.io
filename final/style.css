@@ -63,54 +63,82 @@ table {
 
 /*SITE HEADER WRAPPER*/
 
-#caption {margin-top:6%;
-	position:fixed;
+#caption {margin-top:6.75%;
 	top:0;
-	right:0;
-	margin-right:2.4%;
-	height:55.8%;
-	width:40.41%;
-	
-	}	
-	
-#siteheader {	
-	height:50.78%;
+	margin-right:3%;
+	height:auto;
+	width:35%;
 	background-color:white;
-	width:40.41%;
-	padding-bottom:5%;
-	padding-top:3%;
 	position:fixed;
-	top:0;
 	right:0;
-	margin-right:2.4%;
-	
-	
-	}
 
-	#caption {background-color:black;}
+	
+		}	
+		
+	 
+#introone {font-size:250%;
+			line-height:130%;
+			text-align:left;
+			font-weight: 400;
+			padding-left:5.5%;
+			padding-right:2%;
+			background-color:#000;
+			color:white;
+			padding-top:6%;
+
+
+	
+
+			}	
+	
+#subone {
+			font-size:90%;
+			text-align:left;
+			font-weight: 200;
+			background-color:#000;
+			color:white;
+			padding-left:5.5%;
+			word-spacing: .1em;
+			line-height:1.5em;
+			padding-right:7.3%;
+			padding-bottom:2%;
+
+
+			} 		
+
 	
 /*NAVIGATION*/
 	
+		nav {background-color:white; 
+			height:30%;
+			width:85%;
+			z-index: 1000;
+			position:fixed;
+			margin-left:32px;		
 
-	
-#navigationone {	
-		text-align:center;
-		text-decoration:none;
+		}
 		
 	
-	}
+		
+	
+.navigationone {	
+		text-decoration:none;
+		height:37px;
+		padding-top:2.5%;
+		text-align:right;
+		
+
+		}
 	
 	
-#navigationone	li {
+.navigationone	li {
 		display: inline;
 		padding:.5em;
 		font-size:100%;
-		color:#000;
 		font-weight: 200;
-		background-color:none;
-		
+		background-color:white;
 
-	 }	
+	 	}	
 	 
 
 
@@ -121,8 +149,9 @@ table {
 
 
 #bodywrapper {
-	margin-top:10%;
+
 	margin-bottom:10%;
+	
 
 	}
 		 
@@ -143,105 +172,68 @@ body {
 /*FLOATING IMAGES*/
 	 
 #containerbody {
-		
-	padding-left:13%;
-	position:relative;
-	height:3100px;
 	width:43.5%;
-	background-color:white;
-	margin-top:5.2%;
+	background-color:red;
 	padding-bottom:8.7%;
+
 	
 	 }
 
 	 
-#image1 {float:right;
+#image1 {padding-top:6%;
+		float:left;
+		padding-left:3%;
 	
 	}	
 	 
 	 
 #image2 {clear:both;
-		float:right;
+		float:left;
+		padding-left:3%;
 	
 	}
 	
 
 #image3 {clear:both;
-		float:right;
+		float:left;
+		padding-left:3%;
 	
 		}	
 
 #image4 {clear:both;
-		float:right;
+		float:left;
+		padding-left:3%;
 	
 		}
 	
 
 #image5 {clear:both;
-		float:right;
+		float:left;
+		padding-left:3%;
 	
 		}
 		
 #image6 {clear:both;
-		float:right;
+		float:left;
+		padding-left:3%;
 	
 		}
 	
 
 #image7 {clear:both;
-		float:right;
+		float:left;
+		padding-left:3%;
+			margin-bottom:6%;
 	
 		}	
 		 	 				
 	 	 
 
-/*TESTING*/
-		
-
-
-
-
-
-
-		
-	 
-#introone {font-size:250%;
-	line-height:130%;
-	text-align:left;
-	font-weight: 200;
-	margin-top:20%;
-	padding-bottom: 3%;
-	color:white;
-	padding-left:7.3%;
-
-	
-
-	}	
-	
-#subone {font-size:100%;
-	text-align:left;
-	font-weight: 200;
-	color:white;
-	padding-left:8.3%;
-	word-spacing: .1em;
-	line-height:1.5em;
-
-	} 
 
 /*TITLE*/
 	
 	
 
-#titleone {font-weight:200;
-	line-height:2em;
-	font-size:100%;
-	position:fixed;
-	top:0px;
-	text-align:left;
-	margin-left:20%;
-	margin-top:2.4%;
-
-	 }	
 
 
 /*HOVER LINKS*/
@@ -265,7 +257,7 @@ a:link {
 	
 	
 a:hover {
-	  color:#000;
+	  color:#666;
     border-bottom: 5px solid black;
 	  
 	 }
@@ -320,7 +312,7 @@ footer     {
 
 
 	 html {
-	   min-height: 100%;
+	   min-height: auto;
 	 }
 
 
@@ -339,7 +331,7 @@ footer     {
 
 	 div#all {
 	   width: 100%;
-	   height: 100%;
+	   height: auto;
 	 }
 
 	 /* generic css */
@@ -352,12 +344,13 @@ footer     {
 	     text-align: center;
 
 	     cursor: default;
-	     background: #000;  
+	     background: black;  
 		 opacity: 1;
+
 	 }
 	 .view .mask, .view .content {
-	     width: 750px;
-	     height: 422px;
+	     width: 100%;
+		 height:auto;
 	     position: absolute;
 	     overflow: hidden;
 	     top: 0;
@@ -365,7 +358,9 @@ footer     {
 	 }
 	 .view img {
 	     display: block;
-	     position: relative
+	     position: relative;
+		 height:auto;
+		 width:100%;
 	 }
 	 .view h2 {
 	     color: #000;
@@ -394,7 +389,7 @@ footer     {
 	 .view a.info {
 	     display: inline-block;
 	     text-decoration: none;
-	     padding: 7px 14px;
+	     padding: 1% 2%;
 		 margin-top:9%;
 	     background: #444;
 	     color: #fff;
@@ -417,7 +412,8 @@ footer     {
 	     transition: all .3s ease-in-out;
 	 }
 	 .view-tenth .mask { 
-	     background-color: #000; 
+	     background-color: black
+		 height:auto; 
 	     transition: all .7s linear;
 	     opacity: 0;
 	 }   
@@ -463,19 +459,128 @@ footer     {
 	 
 /*MEDIA SCREEN*/
 	 
+@media screen and (max-width:800px) { /*THIS IS THE CHANGE IN THE PAGE*/
+		 
+
+		 
+	#introone {font-size:150%;
+		 	line-height:70%;
+			padding-right:7.3%;}
+			
+	#subone {font-size:80%;
+				line-height:1em;
+				padding-right:7.3%;} 
+			
+
+   	.view img {
+   	     display: block;
+   	     position: relative;
+   		 height:;
+   		 width:100%;
+	 }
+		 
+	 .view h2 {
+		  font-size:175%;	
+	  }
+		  
+	 .view p {
+		  font-size:100%;	  
+	  }
+		  
+	 .view a.info { 
+		  font-size:100%;
+
+	  }
+	  
+	  
+		nav {background-color:white;; 
+			height:4.9%;
+			width:100%;
+			align:center;
+			margin-bottom:6%;
+			right:30%;
+			z-index: 1000;
+
+		}
+	
+.navigationone {	
+		text-align:center;
+		text-decoration:none;
+		position:fixed;
+		top:0;
+		right:0;
+		padding-top:4%;
+	
+
+}
+	
+	
+.navigationone	li {
+		display: inline;
+		padding:.5em;
+		font-size:100%;
+		font-weight: 200;
+		background-color:#000;
+
+
+		
+
+	 }	
 	 
-	 @media screen and (max-width:1140px) { /*THIS IS THE CHANGE IN THE PAGE*/
+	 
+	 
+	 
+	 a: hover {text-decoration:none;
+	
+	 	 }	
+	 
+	 
+	 a {
+	 	text-decoration:none;
+	 	color:white;
+
+	 	}
+
+
+	 a:link {
+	 	 color:white;
+	 
+	 	}
+	
+	
+	 a:hover {
+	 	  color:#666;
+	     border-bottom: 5px solid black;
+	  
+	 	 }
+	 
+	 
+	 a:active {
+	 	  color:white;
+	  
+	 	 }		 
+	 
+	 
+	 
+		 #caption {display:none;}
+	
+		 
+	 }
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
 		 
 		 
 		 
 		 
 /*JAVASCRIPT*/
 		 
-<script type="text/javascript">
-
-
-
-</script>		
 
 
 
