@@ -53,45 +53,58 @@ table {
 
 /* END RESET */
 
+#container {height:430px;
+	background-color:#9D8B79;
+	width:770px;
+	position:relative;}	
 
-<style>
+    #box3 {
+      width:600px;
+      text-align:left;
+      font-family:times;
+	  float:right;
+	  top:80px;
+	  left:230px;
+	  position:absolute;
+	
+    }	
+
+
 img {padding:10px;}
 
     #box1 { 
-      background-color:#CEB59D;
       padding:10px;
-      margin:5px;
-      width:500px;
+	  top:75px;
+      width:200px;
       text-align:left;
-      font-family:helvetica;
-      border:1px solid #C2A385;
+      font-family:times;
+	  float:left;
+	  position:absolute;
     }
 	
     #box2 { 
-      background-color:#CEB59D;
       padding:10px;
-      margin:5px;
-      width:500px;
+top:350px;
+      width:200px;
       text-align:left;
-      font-family:helvetica;
-      border:1px solid #C2A385;
-    }	
+      font-family:times;
+	  float:left;
+	  clear:both;
+	  position:absolute;
 
-    #box3 { 
-      background-color:#CEB59D;
-      padding:10px;
-      margin:5px;
-      width:500px;
-      text-align:left;
-      font-family:helvetica;
-      border:1px solid #C2A385;
-	  top:300px;
-	  left:300px;
     }	
+	#box4 {position:absolute;
+		left:230px;
+		top:20px;
+		font-family:helvetica;
+	}
+
+	h1 {font-size:30px;
+		font-decoration:bold;}
 	
 div.directions  {text-align: left;
 	padding:5px;
-	font-family:helvetica;
+	font-family:times;
 	font-size:12px;
 	line-height:120%;
     top:300px;
@@ -100,7 +113,7 @@ div.directions  {text-align: left;
 	
 #information  {text-align: left;
 		padding:10px;
-		font-family:helvetica;
+		font-family:times;
 		font-size:12px;
 		line-height:120%;}	
 		
@@ -108,13 +121,13 @@ em {font-weight:bold;}
 
 ul {text-align: left;
 		padding:10px;
-		font-family:helvetica;
+		font-family:times;
 		font-size:12px;
 		line-height:120%;}	
 
 #nav {text-align: left;
 				padding:10px;
-				font-family:helvetica;
+				font-family:times;
 				font-size:16px;
 				line-height:120%;
 		        background-color:#CEB59D;
