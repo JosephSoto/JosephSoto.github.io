@@ -65,9 +65,10 @@
 
 
 	
-#vs {font-family: georgia;
+#versus {font-family: georgia;
 font-size:40%;
-color:black;}
+color:black;
+padding-right:8%;}
 
 #cats {font-size:90%;
 	color:black;
@@ -243,34 +244,52 @@ body { width:100%; margin:0 auto; max-width:1024px; } /*THIS IS YOUR SITE WRAPPE
 
 
 
-@media screen and (max-width:750px) { /*THIS IS THE CHANGE IN THE PAGE*/
+@media screen and (max-width:830px) { /*THIS IS THE CHANGE IN THE PAGE*/
 	
-#nav li {font-size:70%;}	  			
-.cats {	float:left;
-		width:98%;
-		margin:0 1%;
-	font-size:70%;
-	margin-left:8%}		
-.dogs {
-		width:98%;
-		margin:0 1%;
-		size:20em;
-		font-size:70%;
-		float:left;
-		margin-left:8%
+
+	
+	
+#nav li {font-size:100%;}	
+
+  			
+.cats {float:right;
+	font-size:120%;
+	
+}	
+	
+		
+.dogs {clear:both;
+	float:right;
+	font-size:120%;
+
 	}
 		
- img {max-width:90%;} 
- p {width:70%;}
- body {width:705;}
+		
+		
+ img {max-width:100%;
+ align:center;} 
+ 
+ 
+ 
+ 
+ p {width:100%;
+	 word-spacing:.2em;}
+ body {width:90%;}
  footer {width:100%;}
  		
 }
 
 @media screen and (max-width:450px) { /*THIS IS THE CHANGE IN THE PAGE*/
 	
-#nav li {font-size:40%;
-	text-align:center;}	
+#nav li {font-size:70%;
+	text-align:center;
+	padding-left:10%;
+	padding-right:10%;}	
+
+#cats {font-size:40%;}	
+#dogs {font-size:40%;}	
+#versus {font-size:20%;}	
+#bull {display:none;}
 
 	
 	
